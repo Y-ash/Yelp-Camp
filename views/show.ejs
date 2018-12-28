@@ -1,0 +1,17 @@
+<% include partials/header %>
+
+<h1>This is a Show Template!</h1>
+
+<p>
+    <%= campground.name %>
+</p>
+
+<div style="display: flex; flex-wrap: wrap;">
+    <img src="<%= campground.image %> ">
+</div>
+
+<p>
+    <%= campground.description %>
+</p>
+
+<% include partials/footer %>
